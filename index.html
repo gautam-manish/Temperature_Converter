@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
     <title>Temperature Converter</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -11,14 +12,14 @@
 <body>
     <div class="container">
         <form>
-            <h1>Temperature Converter</h1>
+            <h1>Temperature <br>Converter</h1>
             <input type="number" id="textBox" value="0"> <br>
 
             <input type="radio" id="toFahrenheit" name="unit">
-            <label for="toFahrenheit"> Celsius ➡️ Fahrenheit</label> <br>
+            <label for="toFahrenheit" class="toFahrenheit"> Celsius ➡️ Fahrenheit</label> <br>
 
             <input type="radio" id="toCelsius" name="unit">
-            <label for="toCelsius">Fahrenheit ➡️ Celsius </label> <br>
+            <label for="toCelsius" class="toCelsius">Fahrenheit ➡️ Celsius </label> <br>
 
             <button type="button">Submit</button>
             <p id="result">Select a unit</p>
