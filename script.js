@@ -5,13 +5,6 @@ const result = document.getElementById("result");
 const btn = document.getElementById("btn");
 let temp;
 
-// inputTask.addEventListener("click", convertTemp);
-textBox.addEventListener("keypress", function(event){
-    if (event.key === "Enter") {
-        btn.click();
-    }
-});
-
 btn.onclick = function () {
     temp = textBox.value;
     if (temp == "") {
