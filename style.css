@@ -2,7 +2,6 @@
     margin: 0;
     font-family: 'Poppins', sans-serif;
     color: whitesmoke;
-
 }
 
 body {
@@ -57,7 +56,7 @@ button {
     font-size: 110%;
     border: 2px solid blue;
     background-color: blue;
-    color: white;
+
     border-radius: 5px;
     cursor: pointer;
 }
